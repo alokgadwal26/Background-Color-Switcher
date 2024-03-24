@@ -34,6 +34,14 @@
         margin-right: 10px;
         cursor: pointer;
         }
+
+        .mainbox {
+        display: flex;
+        align-items: center;
+       justify-content: center;
+       flex-wrap: wrap;
+       row-gap: 15px;
+       }
         
 
 
@@ -43,10 +51,12 @@
 <body>
     <div id="container">
         <h2>Background Color Switcher</h2>
+        <div class="mainbox">
         <span class="button" id="red" style="background-color: red; color: #fff;">Red</span>
         <span class="button" id="green" style="background-color: green; color: #fff;">Green</span>
         <span class="button" id="white" style="background-color: white; color: #000;">White</span>
         <span class="button" id="yellow" style="background-color: yellow; color: #000;">Yellow</span>
+        </div>
         <h3>Click the Button and change the Background Color</h3>
     </div>
  
